@@ -1,7 +1,7 @@
 class Integer
    
     def to_roman
-       data = {5 => "V",  4 => "IV", 1 => 'I'}
+       data = {9 => "IX", 5 => "V",  4 => "IV", 1 => 'I'}
 
        num = self
        roman = ""
