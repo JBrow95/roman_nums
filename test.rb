@@ -14,4 +14,8 @@ class TestUntitled < Test::Unit::TestCase
     def test_if_4_equaks_I
         assert_equal 'IV', 4.to_roman
     end
+
+    def test_if_5_equaks_V
+        assert_equal 'V', 5.to_roman
+    end
 end
