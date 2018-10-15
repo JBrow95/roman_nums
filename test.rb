@@ -3,9 +3,7 @@ require 'test/unit'
 
 class TestUntitled < Test::Unit::TestCase
     
-    def test_if_data_returns_hash
-        r = Romo.new
-        assert_equal Hash, r.toRoman.class
+    def test_if_data_equals_hash
+        assert_equal 0.to_roman().class, Hash
     end
-
 end
