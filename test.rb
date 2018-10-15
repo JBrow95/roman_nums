@@ -10,4 +10,8 @@ class TestUntitled < Test::Unit::TestCase
     def test_if_1_equals_x
         assert_equal 'I', 1.to_roman
     end
+
+    def test_if_4_equaks_I
+        assert_equal 'I', 1.to_roman
+    end
 end
