@@ -34,4 +34,8 @@ class TestUntitled < Test::Unit::TestCase
     def test_if_50_equaks_L
         assert_equal 'L', 50.to_roman
     end
+
+    def test_if_90_equaks_XC
+        assert_equal 'XC', 90.to_roman
+    end
 end
