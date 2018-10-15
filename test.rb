@@ -46,4 +46,8 @@ class TestUntitled < Test::Unit::TestCase
     def test_if_400_equaks_CD
         assert_equal 'CD', 400.to_roman
     end
+
+    def test_if_500_equaks_D
+        assert_equal 'D', 500.to_roman
+    end
 end
