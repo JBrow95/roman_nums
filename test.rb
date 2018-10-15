@@ -50,4 +50,8 @@ class TestUntitled < Test::Unit::TestCase
     def test_if_500_equaks_D
         assert_equal 'D', 500.to_roman
     end
+
+    def test_if_900_equaks_CM
+        assert_equal 'CM', 900.to_roman
+    end
 end
