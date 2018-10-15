@@ -12,6 +12,6 @@ class TestUntitled < Test::Unit::TestCase
     end
 
     def test_if_4_equaks_I
-        assert_equal 'I', 1.to_roman
+        assert_equal 'IV', 4.to_roman
     end
 end
