@@ -22,4 +22,8 @@ class TestUntitled < Test::Unit::TestCase
     def test_if_9_equaks_IX
         assert_equal 'IX', 9.to_roman
     end
+
+    def test_if_10_equaks_X
+        assert_equal 'X', 10.to_roman
+    end
 end
