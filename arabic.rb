@@ -1,6 +1,7 @@
 class String
     def to_arabic
         @data = [
+            ["XC"  ,   90],
             ["L"  ,   50],
             ["XL"  ,   40],
             ["X"  ,   10],
