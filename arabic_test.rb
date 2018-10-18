@@ -23,4 +23,8 @@ class TestUntitled < Test::Unit::TestCase
     def test_if_X_equals_10
         assert_equal 10, "X".to_arabic
     end
+
+    def test_if_XL_equals_40
+        assert_equal 40, "XL".to_arabic
+    end
 end
