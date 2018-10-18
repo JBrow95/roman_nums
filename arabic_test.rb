@@ -15,4 +15,8 @@ class TestUntitled < Test::Unit::TestCase
     def test_if_V_equals_5
         assert_equal 5, "V".to_arabic
     end
+
+    def test_if_IX_equals_5
+        assert_equal 9, "IX".to_arabic
+    end
 end
