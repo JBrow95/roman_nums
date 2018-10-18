@@ -35,4 +35,8 @@ class TestUntitled < Test::Unit::TestCase
     def test_if_XC_equals_90
         assert_equal 90, "XC".to_arabic
     end
+
+    def test_if_C_equals_100
+        assert_equal 100, "C".to_arabic
+    end
 end
